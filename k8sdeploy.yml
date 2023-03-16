@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: angular-spring-boot-app
+        image: 12bk/angular-spring-boot-app:v0.1.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
